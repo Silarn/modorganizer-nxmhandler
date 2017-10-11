@@ -110,7 +110,7 @@
   </widget>
   <action name="actionRemove">
    <property name="icon">
-    <iconset resource="../organizer/resources.qrc">
+    <iconset resource="../../MO/src/resources.qrc">
      <normaloff>:/MO/gui/remove</normaloff>:/MO/gui/remove</iconset>
    </property>
    <property name="text">
@@ -125,7 +125,7 @@
   </action>
   <action name="actionAdd">
    <property name="icon">
-    <iconset resource="../organizer/resources.qrc">
+    <iconset resource="../../MO/src/resources.qrc">
      <normaloff>:/MO/gui/add</normaloff>:/MO/gui/add</iconset>
    </property>
    <property name="text">
@@ -140,11 +140,11 @@
   <customwidget>
    <class>MOBase::SortableTreeWidget</class>
    <extends>QTreeWidget</extends>
-   <header location="global">sortabletreewidget.h</header>
+   <header location="global">uibase/sortabletreewidget.h</header>
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../organizer/resources.qrc"/>
+  <include location="../../MO/src/resources.qrc"/>
  </resources>
  <connections>
   <connection>
